@@ -3,13 +3,23 @@
 <head>
     <meta charset="utf-8">
     <title>Контакты - Моя первая веб-страница</title>
+    <style>
+        .btn {
+         display: inline-block; /* Строчно-блочный элемент */
+         background: #8C959D; /* Серый цвет фона */
+         color: #fff; /* Белый цвет текста */
+         padding: 1rem 1.5rem; /* Поля вокруг текста */
+         text-decoration: none; /* Убираем подчёркивание */
+         border-radius: 3px; /* Скругляем уголки */
+        }
+       </style>
 </head>
 <body>
     <header>
-        <p align="center"> 
-            <button><a href="../index.html">Главная</a></button>
-            <button><a href="about.html">Обо мне</a></button>
-            <button><a href="#">Контакты</a></button>
+        <p align="center">
+        <a href="../index.html" class="btn">Главная</a>
+        <a href="./about.html" class="btn">Обо мне</a>
+        <a href="#" class="btn">Контакты</a>
     </header>
     <main>
         <h1 style="text-align:center">Как нас найти</h1>
